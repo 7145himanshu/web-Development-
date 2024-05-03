@@ -1,0 +1,300 @@
+body
+{
+     background-color: rgb(255, 244, 244);
+     
+     /* background-position: center; */
+}
+/* .header */
+/* {
+     /* filter:blur(10px); */
+
+.header  
+{
+     top: 0;
+     left:0;
+     z-index: 9999;
+     width: 100%;
+     height: 20px;
+     position:fixed;
+     background-color: rgba(0, 0, 0, 0.705);
+     padding-left: 14%;
+     /* padding-right: 10%; */
+     padding-top: 15px;
+     padding-bottom: 15px;
+     /* display: flex; */
+     align-items:flex-end;
+     backdrop-filter: blur(30px);
+}
+.logo
+{
+     float: left;
+     /* padding-right: 20px; */
+     margin-right: 80px;
+     height: 25px;
+     width: 20px;
+}
+.navbar a{
+     color: rgb(216, 216, 216);
+     font-family:monospace;
+     font-weight: 10;
+     font-style: initial;
+     margin-left: 20px;
+     margin-right: 20px;
+     text-decoration: none;
+     font-size: small;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.navbar a:hover
+{
+     transform: scalex(1s);
+     transition-duration: 0.1s;
+     text-decoration: underline;
+}
+.logo
+{
+     filter: invert(100%);
+     /* height: 20px;
+     width: 20px; */
+}
+.below
+{
+     background-color: rgb(84, 83, 83);
+     height: 51px;
+     width:100%;
+     color:rgb(84, 83, 83);
+     margin: -10px;
+     /* display: flex; */
+}
+.navline
+{
+     /* color: rgb(255, 0, 0); */
+     font-size:larger;
+}
+                                             /* login BAR */
+.loginbar
+{
+     /* border:2px solid red; */
+     border-top: 1px solid white;
+     margin-top: -10px;
+     margin-bottom: 8px;
+     margin-left: -8px;
+     width: 100.3%;
+     padding: 7px;
+     background-color: rgb(0, 0, 0);
+     color: white;
+     text-align: right;
+     
+}
+.loginbar div
+{
+     /* color: aliceblue; */
+     margin-right: 30px;
+     font-size: 15px;
+}
+.loginbar a
+{
+     font-family:'Times New Roman', Times, serif;
+     margin: 3px;
+     text-decoration: none;
+     color: aliceblue;     
+}
+.signup
+{
+     text-align: none;
+     /* border: 1px solid white; */
+}
+.signup:hover
+{
+     text-decoration: underline;
+}
+.login 
+{
+     border:1px solid white;
+     padding: 4px;
+}
+.login:hover
+{
+     text-decoration: underline;
+     /* font-size: 20px; */
+}
+.menubar
+{
+     float: left;
+}
+.menubtn
+{
+     color: white;
+     font-size: large;
+}
+
+                                        /*TITANIUM*/
+.below2 img
+{
+     top:0;
+     left:0;
+     /* background-color: black; */
+     margin-top:-9.5px;
+     margin-left: -8px;
+     width: 101%;
+}
+                                   /*iPHONE 15PR*/
+.smain
+{
+     /* position:absolute; */
+     left:0;
+}
+.sbox
+{
+     /* position:absolute; */
+     left:0;
+     height:30vh;
+     width: 100%;
+     background-color: rgb(245 245 247);
+     color:black;
+     border: 5px rgb(245 245 247) solid;
+     text-align: center;
+}                   
+.sbox h2
+{
+     font-family:monospace;
+     color:rgb(89, 89, 255);
+}
+.sbox h1{
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 50px;
+     margin-top: 50px;
+}
+.sbox h3{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+     font-size: 30px;   
+     margin-top:-30px ;
+}
+.sbox a{
+     font-family:monospace;
+     font-weight: 10;
+     text-decoration: none;
+     font-size: 20px;
+     margin-left: 40px;
+     color:rgb(89, 89, 255);
+}
+.sbox a:hover
+{
+     text-decoration: underline;
+}
+#simage
+{
+     /* border: 5px red solid; */
+     left:0;
+     height: 30vh;
+     width:98%;
+}
+                                   /*WATCH SERIES*/
+.watch
+{
+     position: relative;
+     margin-top: 5.5%;
+     margin-left: -2%;
+     /* position: ; */
+     /* left:0; */
+}
+.watch img
+{
+     /* left:-2; */
+     height: 90vh;
+     width: 100%;
+     filter: brightness(20%);
+     /* filter:grayscale(100%); */
+}
+.watch .series .applewatch
+{
+     position: absolute;
+     color: white;
+     top:50%;
+     transform: translate(20%, 0%);
+     right:46%;
+     font-size: 50px;
+     font-weight: 700;
+     /* font-style:unset; */
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+.watch .series .series9
+{
+     position: absolute;
+     color: white;
+     top:60%;
+     transform: translate(20%, 0%);
+     left:47%;
+     font-size: 15px;
+     font-weight: 100;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+.watch .text
+{
+     position: absolute;
+     color: white;
+     right:35%;
+     top:65%;
+     font-size:30px;
+     transform: translate(20%, 0%);
+     font-family: 'Times New Roman', Times, serif;
+}
+.watch .learn
+{
+     position: absolute;
+     right:50%;
+     top:74%;
+     font-size:40px;
+     transform: translate(20%, 0%);
+     background-color: rgb(255, 255, 255);
+     font-size: 18px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 50px;
+     font-family:monospace;
+     /* text-decoration:none; */
+     color: black;
+}
+.watch .buy
+{
+     /* text-decoration: none; */
+     position: absolute;
+     right:43%;
+     top:74%;
+     font-size:40px;
+     transform: translate(20%, 0%);
+     background-color: white;
+     font-size: 18px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 50px;
+     font-family:monospace;
+}
+.watch a
+{
+     text-decoration: none;
+}
+.watch a:hover
+{
+     text-decoration: underline;
+     font-size: 20px;
+}
+.applelogo
+{
+     position:absolute;
+     color: white;
+     right:10%;
+     top:10%;
+     font-size: 10px;
+     /* height:10px; */
+     /* width: 10px; */
+     /* left:50px; */
+     filter: invert(100%);
+}
